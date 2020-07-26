@@ -88,7 +88,7 @@ rhel6 ()	{
 rhel7 ()	{
 	# Installing necessary packages (Squid, httpd-tools for htpasswd and dependencies)
 	yum install squid httpd-tools -y
-	htpasswd -b -c /etc/squid/passwd streetpr0x streetpr0x
+	htpasswd -b -c /etc/squid/passwd c0ralz0e c0ralzoe
 	# Downloading Squid configuration 
 	wget -O /etc/squid/squid.conf https://pastebin.com/raw/xkFXWZ7g --no-check-certificate
 	# Creating empty blacklist.acl file for further blacklisting entries
